@@ -1,0 +1,27 @@
+{
+  "name": "metdata_extractor",
+  "version": "1.0.0",
+  "description": "extract meta data from rdf files",
+  "main": "seed-dbs.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fs": "^0.0.1-security",
+    "mysql2": "^1.6.4",
+    "path": "^0.12.7",
+    "recursive-readdir": "^2.2.2",
+    "sequelize": "^4.41.2",
+    "xml2js": "^0.4.19",
+    "xmldom": "^0.1.27"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taylor M",
+  "license": "ISC"
+}

@@ -1,0 +1,1085 @@
+{
+  "rdf:RDF": {
+    "$": {
+      "xml:base": "http://www.gutenberg.org/",
+      "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xmlns:pgterms": "http://www.gutenberg.org/2009/pgterms/",
+      "xmlns:rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "xmlns:dcterms": "http://purl.org/dc/terms/",
+      "xmlns:cc": "http://web.resource.org/cc/",
+      "xmlns:dcam": "http://purl.org/dc/dcam/"
+    },
+    "pgterms:ebook": [
+      {
+        "$": {
+          "rdf:about": "ebooks/24"
+        },
+        "dcterms:hasFormat": [
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/files/24/24-h.zip"
+                },
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Nb00dd563711a43088594bc6a7f4306c3"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "text/html; charset=utf-8",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Nfb52792d8f5143958eeba2f19255c5a0"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "application/zip",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "131027",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "ebooks/24"
+                    }
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2018-03-18T12:46:52",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/ebooks/24.kindle.images"
+                },
+                "dcterms:modified": [
+                  {
+                    "_": "2018-11-01T01:02:44.266190",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Necd2c40ed60e4990884c15522e752abd"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "application/x-mobipocket-ebook",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "ebooks/24"
+                    }
+                  }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "565046",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/files/24/24.zip"
+                },
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N809b7ebe01bf46e8b4b6e46f31aa9cbd"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "text/plain; charset=us-ascii",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N93efbe970bb149739708490c3a51d72e"
+                        },
+                        "rdf:value": [
+                          {
+                            "_": "application/zip",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2014-01-23T09:29:26",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "125081",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "ebooks/24"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/files/24/24-0.zip"
+                },
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N534ed57502584650804ead03312fb75a"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "text/plain; charset=utf-8",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N76c4dce52fa44a6eade2e95fefec07a4"
+                        },
+                        "rdf:value": [
+                          {
+                            "_": "application/zip",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "125475",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2018-03-18T12:46:52",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "ebooks/24"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/ebooks/24.kindle.noimages"
+                },
+                "dcterms:modified": [
+                  {
+                    "_": "2018-11-01T01:02:45.457160",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N1a0f42536a004347b800ea2ef79ed080"
+                        },
+                        "rdf:value": [
+                          {
+                            "_": "application/x-mobipocket-ebook",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "ebooks/24"
+                    }
+                  }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "565034",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/files/24/24.txt"
+                },
+                "dcterms:extent": [
+                  {
+                    "_": "324324",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N2764ce1f271a4325b62816e24b403025"
+                        },
+                        "rdf:value": [
+                          {
+                            "_": "text/plain; charset=us-ascii",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "ebooks/24"
+                    }
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2014-01-23T09:27:50",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/files/24/24-h/24-h.htm"
+                },
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Ne84738de40ff4b6cbca1640c50b84d86"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "text/html; charset=utf-8",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "387150",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "ebooks/24"
+                    }
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2018-03-18T12:46:34",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/ebooks/24.epub.noimages"
+                },
+                "dcterms:extent": [
+                  {
+                    "_": "137450",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2018-11-01T01:02:43.073211",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "ebooks/24"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Nc07351e46e5649d7bb49887c742fa7bf"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "application/epub+zip",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/ebooks/24.rdf"
+                },
+                "dcterms:isFormatOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "ebooks/24"
+                    }
+                  }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "14839",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2018-11-08T04:59:53.042238",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N77cc91eb4ec94381bbc2e1e430fc509d"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "application/rdf+xml",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/ebooks/24.epub.images"
+                },
+                "dcterms:modified": [
+                  {
+                    "_": "2018-11-01T01:02:42.871207",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "Na7e9c7222a89462397bb12f559dc04d3"
+                        },
+                        "rdf:value": [
+                          {
+                            "_": "application/epub+zip",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "137450",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:isFormatOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "ebooks/24"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "pgterms:file": [
+              {
+                "$": {
+                  "rdf:about": "http://www.gutenberg.org/files/24/24-0.txt"
+                },
+                "dcterms:isFormatOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "ebooks/24"
+                    }
+                  }
+                ],
+                "dcterms:format": [
+                  {
+                    "rdf:Description": [
+                      {
+                        "$": {
+                          "rdf:nodeID": "N94c0eb4fc32c4c68873fc6b2f7988b9a"
+                        },
+                        "dcam:memberOf": [
+                          {
+                            "$": {
+                              "rdf:resource": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ],
+                        "rdf:value": [
+                          {
+                            "_": "text/plain; charset=utf-8",
+                            "$": {
+                              "rdf:datatype": "http://purl.org/dc/terms/IMT"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dcterms:extent": [
+                  {
+                    "_": "327745",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "dcterms:modified": [
+                  {
+                    "_": "2018-03-09T09:32:36",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "dcterms:subject": [
+          {
+            "rdf:Description": [
+              {
+                "$": {
+                  "rdf:nodeID": "N5a5b27b78a484e55b9cae7f4391f96ca"
+                },
+                "dcam:memberOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://purl.org/dc/terms/LCSH"
+                    }
+                  }
+                ],
+                "rdf:value": [
+                  "Historical fiction"
+                ]
+              }
+            ]
+          },
+          {
+            "rdf:Description": [
+              {
+                "$": {
+                  "rdf:nodeID": "Nff88e621d9f24adbacdc01db8a1afeeb"
+                },
+                "dcam:memberOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://purl.org/dc/terms/LCSH"
+                    }
+                  }
+                ],
+                "rdf:value": [
+                  "Women pioneers -- Fiction"
+                ]
+              }
+            ]
+          },
+          {
+            "rdf:Description": [
+              {
+                "$": {
+                  "rdf:nodeID": "Ne7eefd2ccd7b449f8152a5011e826b33"
+                },
+                "dcam:memberOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://purl.org/dc/terms/LCSH"
+                    }
+                  }
+                ],
+                "rdf:value": [
+                  "Brothers and sisters -- Fiction"
+                ]
+              }
+            ]
+          },
+          {
+            "rdf:Description": [
+              {
+                "$": {
+                  "rdf:nodeID": "N0eb0f7c0ab1f4a2bbac325fcb9417e1d"
+                },
+                "dcam:memberOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://purl.org/dc/terms/LCSH"
+                    }
+                  }
+                ],
+                "rdf:value": [
+                  "Women farmers -- Fiction"
+                ]
+              }
+            ]
+          },
+          {
+            "rdf:Description": [
+              {
+                "$": {
+                  "rdf:nodeID": "Nc60403c530794064a9a1d09f8bcd4377"
+                },
+                "dcam:memberOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://purl.org/dc/terms/LCSH"
+                    }
+                  }
+                ],
+                "rdf:value": [
+                  "Nebraska -- Fiction"
+                ]
+              }
+            ]
+          },
+          {
+            "rdf:Description": [
+              {
+                "$": {
+                  "rdf:nodeID": "N4e3ea40b98f5415daf1748ced8bae0ce"
+                },
+                "dcam:memberOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://purl.org/dc/terms/LCC"
+                    }
+                  }
+                ],
+                "rdf:value": [
+                  "PS"
+                ]
+              }
+            ]
+          },
+          {
+            "rdf:Description": [
+              {
+                "$": {
+                  "rdf:nodeID": "Ne7320fe86df6498db13732bcdf613342"
+                },
+                "rdf:value": [
+                  "Farm life -- Fiction"
+                ],
+                "dcam:memberOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://purl.org/dc/terms/LCSH"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "rdf:Description": [
+              {
+                "$": {
+                  "rdf:nodeID": "N888107cd102544b08ca65d9a2c275931"
+                },
+                "dcam:memberOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://purl.org/dc/terms/LCSH"
+                    }
+                  }
+                ],
+                "rdf:value": [
+                  "Domestic fiction"
+                ]
+              }
+            ]
+          },
+          {
+            "rdf:Description": [
+              {
+                "$": {
+                  "rdf:nodeID": "Ndec2c9e8789641c0876798f4fd170cde"
+                },
+                "dcam:memberOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://purl.org/dc/terms/LCSH"
+                    }
+                  }
+                ],
+                "rdf:value": [
+                  "Women immigrants -- Fiction"
+                ]
+              }
+            ]
+          },
+          {
+            "rdf:Description": [
+              {
+                "$": {
+                  "rdf:nodeID": "N6dbee42dc37943b3bb0ed821d7ba6cd3"
+                },
+                "dcam:memberOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://purl.org/dc/terms/LCSH"
+                    }
+                  }
+                ],
+                "rdf:value": [
+                  "Frontier and pioneer life -- Nebraska -- Fiction"
+                ]
+              }
+            ]
+          },
+          {
+            "rdf:Description": [
+              {
+                "$": {
+                  "rdf:nodeID": "N2f9c8d025bb54913b55ede91ab850a8b"
+                },
+                "dcam:memberOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://purl.org/dc/terms/LCSH"
+                    }
+                  }
+                ],
+                "rdf:value": [
+                  "Swedish Americans -- Fiction"
+                ]
+              }
+            ]
+          }
+        ],
+        "dcterms:type": [
+          {
+            "rdf:Description": [
+              {
+                "$": {
+                  "rdf:nodeID": "Nba7a4b86f76f49999b23fee76a7848e7"
+                },
+                "rdf:value": [
+                  "Text"
+                ],
+                "dcam:memberOf": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://purl.org/dc/terms/DCMIType"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "dcterms:creator": [
+          {
+            "pgterms:agent": [
+              {
+                "$": {
+                  "rdf:about": "2009/agents/22"
+                },
+                "pgterms:alias": [
+                  "Catherova, Willa",
+                  "Cather, Willa Sibert",
+                  "Cather, Wilella",
+                  "Catherová, Willa"
+                ],
+                "pgterms:name": [
+                  "Cather, Willa"
+                ],
+                "pgterms:birthdate": [
+                  {
+                    "_": "1873",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "pgterms:deathdate": [
+                  {
+                    "_": "1947",
+                    "$": {
+                      "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    }
+                  }
+                ],
+                "pgterms:webpage": [
+                  {
+                    "$": {
+                      "rdf:resource": "http://en.wikipedia.org/wiki/Willa_Cather"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "dcterms:issued": [
+          {
+            "_": "2008-06-27",
+            "$": {
+              "rdf:datatype": "http://www.w3.org/2001/XMLSchema#date"
+            }
+          }
+        ],
+        "dcterms:language": [
+          {
+            "rdf:Description": [
+              {
+                "$": {
+                  "rdf:nodeID": "N3e0e2e6ab6c44f7fb9d733dda63a50c1"
+                },
+                "rdf:value": [
+                  {
+                    "_": "en",
+                    "$": {
+                      "rdf:datatype": "http://purl.org/dc/terms/RFC4646"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "pgterms:downloads": [
+          {
+            "_": "952",
+            "$": {
+              "rdf:datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          }
+        ],
+        "dcterms:publisher": [
+          "Project Gutenberg"
+        ],
+        "dcterms:rights": [
+          "Public domain in the USA."
+        ],
+        "dcterms:license": [
+          {
+            "$": {
+              "rdf:resource": "license"
+            }
+          }
+        ],
+        "dcterms:title": [
+          "O Pioneers!"
+        ]
+      }
+    ],
+    "cc:Work": [
+      {
+        "$": {
+          "rdf:about": ""
+        },
+        "cc:license": [
+          {
+            "$": {
+              "rdf:resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            }
+          }
+        ],
+        "rdfs:comment": [
+          "Archives containing the RDF files for *all* our books can be downloaded at\\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog"
+        ]
+      }
+    ],
+    "rdf:Description": [
+      {
+        "$": {
+          "rdf:about": "http://en.wikipedia.org/wiki/Willa_Cather"
+        },
+        "dcterms:description": [
+          "Wikipedia"
+        ]
+      }
+    ]
+  }
+}
