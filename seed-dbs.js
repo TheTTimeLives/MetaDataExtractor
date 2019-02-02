@@ -10,10 +10,10 @@ const mongoose = require("mongoose");
 
 console.log('DB',db)
 
-
+//Using async to write awaitable functions
 async function parseFiles() {
 
-  //Error handling for grabbing our recursive files via a promisified version of the recurive readdir directory
+  //Error handling for grabbing our recursive files. This package supports promises natively so we didn't need to use promisify to convert it.
   try {
     console.log('Fetching file paths')
     var filePaths = await recursive("../rdf-files/cache/epub/")
@@ -23,11 +23,13 @@ async function parseFiles() {
     process.exit(1)
   }
 
-  // Runs an array forEach method on every filePath returned from the readdir. Uses slice for testing purposes.
+  // Runs an array forEach method on every filePath returned from the readdir. Uses slice for testing purposes. Using async to write awaitable functions.
   filePaths.slice(0, 5).forEach(async (filePath, index) => {
+
+    //Read a file and assign it's contents to fileContents
     const fileContents = fs.readFileSync(filePath)
 
-    //Parses the string content from XML into Objects
+    //Parse fileContents, which is XML, into an object
     try {
       var result = await parseStringP(fileContents, { tagNameProcessors: [stripPrefix] })
     } catch (err) {
@@ -35,7 +37,10 @@ async function parseFiles() {
       process.exit(1)
     }
 
-    //Some handling for inconsistences between data
+
+
+
+    //Some handling for inconsistences between different keys when we push to MongoDB
     const {ebook} = result.RDF
 
     if (!ebook[0].issued || ebook[0].issued[0] === 'None') {
@@ -57,6 +62,9 @@ async function parseFiles() {
 
     const subjectTitles = (ebook[0].subject || []).map(subject => subject.Description[0].value[0])
 
+
+
+
     const book = await db.Book.create({
       bookId: ebook[0].$['rdf:about'].slice(7),
       title: ebook[0].title[0],
@@ -72,6 +80,7 @@ async function parseFiles() {
 
 }
 
+//Run our function (will probably make an export)
 parseFiles()
 
 //To be connected to a mongoDB called library
